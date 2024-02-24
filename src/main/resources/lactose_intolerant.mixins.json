@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.adriannic.lactose_intolerant.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinAbstractMinecartEntity",
+    "MixinAbstractPressurePlateBlock",
+    "MixinAnvilBlock",
+    "MixinBannerBlock",
+    "MixinBedBlock",
+    "MixinBellBlock",
+    "MixinBoatEntity",
+    "MixinBrewingStandBlock",
+    "MixinCauldronBlock",
+    "MixinDaylightDetectorBlock",
+    "MixinDoorBlock",
+    "MixinDragonEggBlock",
+    "MixinEnchantingTableBlock",
+    "MixinFenceGateBlock",
+    "MixinGrindstoneBlock",
+    "MixinHopperBlock",
+    "MixinLecternBlock",
+    "MixinPressurePlateBlock",
+    "MixinStonecutterBlock",
+    "MixinWeightedPressurePlateBlock"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lactose_intolerant",
+  "version": "${version}",
+  "name": "Lactose Intolerant",
+  "description": "This mod removes certain cheese strategies such as exploding beds or endermen on boats.",
+  "authors": [
+    "adriannic"
+  ],
+  "contact": {
+    "repo": "https://github.com/adriannic/Lactose-Intolerant"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/lactose_intolerant/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.adriannic.lactose_intolerant.client.LactoseIntolerantClient"
+    ],
+    "main": [
+      "com.adriannic.lactose_intolerant.LactoseIntolerant"
+    ]
+  },
+  "mixins": [
+    "lactose_intolerant.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
